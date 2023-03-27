@@ -20,12 +20,6 @@
       "Next": "NextState"
     },
 
-    "SecondMatchState": {
-      "Type" : "Task",
-      "Resource": "arn:aws:lambda:us-east-1:123456789012:function:OnSecondMatch",
-      "Next": "NextState"
-    },
-
     "NextState": {
       "Type": "Task",
       "Resource": "arn:aws:lambda:us-east-1:123456789012:function:FUNCTION_NAME",
